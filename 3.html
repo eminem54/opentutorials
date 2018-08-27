@@ -1,31 +1,39 @@
-<!dpctype html>
+<!doctype html>
 <html>
   <head>
     <title><Starcraft</title>
     <meta charset="utf-8">
+    <style>
+      @import url(properties.css);
+    </style>
+    <script src="jsFunction.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
-    <h1>Starcraft</h1>
-    <ol>
-      <li><a href="1.html">Zerg</a></li>
-      <li><a href="2.html">Terran</a></li>
-      <li><a href="3.html">Protoss</a></li>
-    </ol>
-    <p><h2>Protoss</h2>
-    <a href="https://opentutorials.org/course/3084/18418" target="_blank" title="opentutorials"><strong>Endianness</strong></a>
-    refers to the sequential order in which bytes are arranged
-    into larger numerical values when stored in memory or when transmitted
-    over digital links. Endianness is of interest in computer science because
-    two conflicting and incompatible formats are in common use: words may be
-    represented in <strong><u>big-endian or little-endian format</u></strong>, depending on whether bits
-    or bytes or other components are ordered from the big end (most significant bit)
-    or the little end (least significant bit).</p>
+    <strong><h1><a href="index.html">Starcraft</a></h1></strong>
+    <input type="button" value="night" onclick="
+      nightDayHandler(this);
+    ">
+    <div id="grid">
+        <ol><h2>
+          <li><a href="1.html">Zerg</a></li>
+          <li><a href="2.html">Terran</a></li>
+          <li><a href="3.html">Protoss</a></li>
+        </h2></ol>
+        <div>
+        <h2>Protoss</h2><br><br>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/tHdum6nRTRA"
+          frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <p>
+          만약 사회가 '그 구성원이 서로의 흥미와 사고 방식을 얼마나 잘 이해하는가'로 정의된다면,
+          프로토스는 그 존재만으로 우리를 무색하게 만들 것이다. 당신은 그들이 서로 떨어져 있다고 생각하는가?
+          그들은 본능적으로 서로의 감정을 연결한다. 그들은 우리가 숨쉬는 것만큼 쉽게 이해의 차원들을 공유한다.
+          우리는 여전히 아주, 아주 고독한 채로 남아 있다. 우리의 관계는 그들과 비교하면 유치할 뿐이다.
+          <br>- 제이크 램지, 외계 고고학자/프로토스 전문가 겸 블랙스톤 프로젝트 연구원<br>
 
-    <p style="margin-top:40px"><h1>ROUND ROBIN</h1>
-    A <strong>round-robin</strong> tournament (or all-play-all tournament) is a
-    competition in which each contestant meets all other contestants in turn.
-    It contrasts with an elimination tournament.</p>
-
-    <img src = "일장이.jpg" width=500>
+        <img src = "일장이.jpg" width=500px margin="10px">
+      </div>
+    </div>
   </body>
 </html>

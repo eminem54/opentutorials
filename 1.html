@@ -1,31 +1,38 @@
-<!dpctype html>
+<!doctype html>
 <html>
   <head>
     <title><Starcraft</title>
     <meta charset="utf-8">
+    <style>
+      @import url(properties.css);
+    </style>
+    <script src="jsFunction.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
-    <h1>Starcraft</h1>
-    <ol>
-      <li><a href="1.html">Zerg</a></li>
-      <li><a href="2.html">Terran</a></li>
-      <li><a href="3.html">Protoss</a></li>
-    </ol>
-    <p><h2>Zerg</h2>
-    <a href="https://opentutorials.org/course/3084/18418" target="_blank" title="opentutorials"><strong>Endianness</strong></a>
-    refers to the sequential order in which bytes are arranged
-    into larger numerical values when stored in memory or when transmitted
-    over digital links. Endianness is of interest in computer science because
-    two conflicting and incompatible formats are in common use: words may be
-    represented in <strong><u>big-endian or little-endian format</u></strong>, depending on whether bits
-    or bytes or other components are ordered from the big end (most significant bit)
-    or the little end (least significant bit).</p>
-
-    <p style="margin-top:40px"><h1>ROUND ROBIN</h1>
-    A <strong>round-robin</strong> tournament (or all-play-all tournament) is a
-    competition in which each contestant meets all other contestants in turn.
-    It contrasts with an elimination tournament.</p>
-
-    <img src = "일장이.jpg" width=500>
+    <strong><h1><a href="index.html">Starcraft</a></h1></strong>
+    <input type="button" value="night" onclick="
+    nightDayHandler(this);
+  ">
+    <div id="grid">
+      <ol><h2>
+        <li><a href="1.html">Zerg</a></li>
+        <li><a href="2.html">Terran</a></li>
+        <li><a href="3.html">Protoss</a></li>
+        
+      </h2></ol>
+      <div>
+      <h2>Zerg</h2><br><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qx-0aPBw-hQ"
+        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <p>
+        저그는 악몽 같은 존재야. 엄청나게 진화한 괴물, 살인 기계들이지.
+        서로 다른 생명체가 한곳에 모여서 소위, 군단을 구성하고, 단 하나의 집단적인 의식에 따라 움직여. 마치 메뚜기떼 같은 놈들이야. 이 행성에서 저 행성으로 온 은하계를 휩쓸며, 자신들이 지나간 곳에는 오로지 죽음과 파괴만을 남기지.
+        <br>
+        - 짐 레이너, 스타크래프트 2 저그 개요 영상에서.<br>
+    <img src = "일장이.jpg" width=500 margin-top=10px>
+  </div>
+</div>
   </body>
 </html>

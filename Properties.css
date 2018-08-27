@@ -1,0 +1,40 @@
+a{
+  text-decoration-line: none;
+}
+h1{
+  border-bottom:1px solid black;
+  font-size:60px;
+  text-align: center;
+  margin:0px;
+  padding-top:20px;
+  padding-bottom:30px;
+}
+h2{
+  font-size:30px;
+}
+img{
+  margin-top:20px;
+  margin-left:10px;
+}
+iframe{
+  margin-bottom:20px;
+}
+ol{
+  border-right:1px black solid;
+  width:120px;
+  margin:0px;
+  padding:10 30 10 50;
+}
+.saw{
+  color:grey;
+}
+#grid{
+  display:grid;
+  grid-template-columns: 230px 1fr;
+}
+#tribe{
+  border:5px grey solid;
+  margin-bottom: 20px;
+  padding: 3px;
+  display:inline
+}
